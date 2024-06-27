@@ -1,15 +1,111 @@
-table {
-    width: 70%;
-    border-collapse: collapse;
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(0, 0, 57) ;
 }
-th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
+.header{
+    width: 1302px;
+    height: 51px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
-th {
-    background-color: #17a2b8;
+.header img{
+    width: 157.89px;
+    height: 40px;
+    top: 6px;
+    gap: 0px;
+    opacity: 0px;
+}
+.header ul li{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: white ;
+}
+.header button{
+    width: Fixed (188px)px;
+    height: Fixed (51px)px;
+    left: 1117px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px 0px 0px 0px;
+    border: 2px solid white;
     color: white;
 }
+/* slider from here */
+.body_slider{
+    display: flex;
+    width: 1300px;
+    height: 540px;
+    top: 136px;
+    left: 312px;
+    padding-left: 312px;
+    padding-top: 134px;
+}
+.body_slider .body_slider_half{
+    width: 1300px;
+    height: 480px;
+    background: url("Rectangle\ 30.png");
+    border: 5px solid yellow;
+
+}
+.body_slider_half .btn_main{
+    display: relative;
+    width: 154px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 201px ;
+    margin-left: 60px ;
+    background-color: none;
+}
+.body_slider .slide_main{
+    margin-left: 60px;
+    color: #fff;
+    background: none !important;
+    margin-top: 30px;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 60px;
+}
+.body_slider .body_slider_second{
+    width: 441px;
+    height: 480px;
+    top: 174px;
+    left: 1192px;
+    gap: 0px;
+    border-radius: 0px 0px 5px 5px;
+    opacity: 0.1px;
+    border: 5px solid yellow;
+    
+}
+.body_slider_second .body_secsl{
+    width: Fixed (208px)px;
+    height: Hug (40px)px;
+    top: 134px;
+    left: 1192px;
+    padding: 12px 10px 7px 10px;
+    gap: 10px;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 0px;
+    color: #fff;
+}
+.body_slider_second .body_2secsl{
+    width: Fixed (208px)px;
+    height: Hug (40px)px;
+    top: 134px;
+    left: 1400px;
+    padding: 12px 10px 7px 10px;
+    gap: 10px;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 0px;
+    color: #fff;
+
+}
+
